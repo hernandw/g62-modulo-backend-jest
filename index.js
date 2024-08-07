@@ -15,3 +15,6 @@ app.use('/', routes)
 
 
 app.listen(PORT, () => console.log(`Example app listening on port http://localhost:${PORT}`));
+
+
+export default app

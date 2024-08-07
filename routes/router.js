@@ -4,6 +4,8 @@ const router = express.Router()
 
 router.get('/', controller.home)
 
+router.get('/products', controller.products)
+
 router.get('*', controller.notFound)
 
 
